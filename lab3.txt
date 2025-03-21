@@ -1,0 +1,97 @@
+ECOR 1041 Lab 3 Solutions
+
+Using a text editor, type your solutions to the exercises in the lab
+instructions (file ECOR1041_Lab3.pdf) in the indicated areas.
+
+===========
+Exercise 1:
+
+(a) Write the Python statement that caused the variable degrees_f to
+appear in the memory model
+
+==> degrees_f = 70
+
+(b) What is the name of the frame containing degrees_f?
+
+==> Global frame.
+
+(c) What does the arrow that points from degrees_f to 70 represent?
+
+==> This arrow represents the object's memory address.
+
+(d) Write the Python statement that caused the variable degrees_k to
+appear in the memory model.
+
+==> degrees_k = ((degrees_f = 32 * 5/9) + 273.15
+
+(e) The arrow in degrees_k points to an object. What is the type and
+value of this object?
+
+==> degrees_k points to an object with the type float, and with the value 294.2611.
+
+===========
+Exercise 2:
+
+Copy the four assignment statements from Python Tutor and paste them
+between the two dashed lines.
+--------------------------------
+==> mpg = 32
+==> LITRES_PER_GALLON = 4.54609
+==> KMS_PER_MILE = 1.60934
+==> fuel_consumption = 100/(mpg*KMS_PER_MILE/LITRES_PER_GALLON)
+--------------------------------
+
+(a) What is the name of the first variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> The name of the first variable that appears in the memory model is mpg which is type int and it has the value of 32.
+
+(b) What is the name of the second variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> The name of the second variable that appears in the memory model is LITRES_PER_GALLON which is the type float and has the value of 4.54609.
+
+(c) What is the name of the third variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> The name of the third variable that appears in the memory model is KMS_PER_MILE which is type float and has a value of 1.60934.
+
+(d) What is the name of the fourth variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> The name of the fourth variable that appears in the memory model is fuel_consumption which is type float and has a value of........ 
+
+===========
+Exercise 3:
+
+Copy the five assignment statements from Python Tutor and paste them
+between the two dashed lines.
+--------------------------------
+==> principal = 1500
+==> rate = 0.043
+==> n = 4
+==> time = 6
+==> amount = principal*(pow(1+(rate/n),n*time))
+--------------------------------.
+
+===========
+Exercise 4:
+
+Write a short step-by-step explanation of how Python evaluates the
+statement:
+
+x *= x + x
+
+when x refers to 5.
+
+Python will first add the two x's together. It will then multiply the sum by the original value of x and lastly set x as this new value. The operation will be as follows: 
+
+X *= 5+5
+x *= 10
+x = 50
+
+
+
+
+
+
